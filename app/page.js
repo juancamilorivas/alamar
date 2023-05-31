@@ -24,7 +24,7 @@ function page() {
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputPassword1" className="form-label">
-              Contraseña
+              Contraseñaaaaaaaa
             </label>
             <input
               type="password"
