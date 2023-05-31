@@ -6,7 +6,7 @@ function page() {
     <div className="row align-items-center ">
 
 
-      <div className="col p-5">
+      <div className="col p-5 align-items-center">
         <form>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
@@ -24,7 +24,7 @@ function page() {
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputPassword1" className="form-label">
-              Contraseñaaaaaaaa
+              Contraseña
             </label>
             <input
               type="password"
@@ -58,6 +58,10 @@ function page() {
             height={690}
             width={900}
           />
+        </div>
+
+        <div>
+        <img src="banner-test.png" alt="" className="img-fluid" />
         </div>
       </div>
 
