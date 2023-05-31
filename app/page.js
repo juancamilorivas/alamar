@@ -51,18 +51,12 @@ function page() {
 
 
       <div className="col">
-        <div>
-          <Image
-            src={`/banner-test.png`}
-            alt="something"
-            height={690}
-            width={900}
-          />
-        </div>
 
         <div>
-        <img src="banner-test.png" alt="" className="img-fluid" />
+        <img src="banner-test.jpg" alt="Banner"  height={690}
+            width={900}/>
         </div>
+        
       </div>
 
 
