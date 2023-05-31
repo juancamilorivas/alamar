@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.min.css" />
       </head>
       <body className={inter.className}>
-        <div className='container p-4'>
+        <div>
         {children}
         </div>
         </body>
