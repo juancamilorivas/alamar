@@ -1,12 +1,12 @@
-import React from "react";
-import Image from "next/image";
-
 function page() {
   return (
-    <div className="row align-items-center ">
+    <div 
+    className="d-flex align-items-center justify-content-around" 
+    style={{ minHeight: '608px'}}
+    >
 
 
-      <div className="col p-5 align-items-center">
+      <div className="p-5" style={{ minWidth: '525px', maxWidth: '625px' }}>
         <form>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
@@ -50,16 +50,18 @@ function page() {
 
 
 
-      <div className="col">
-
-        <div>
-        <img src="banner-test.jpg" alt="Banner"  height={690}
-            width={900}/>
-        </div>
+         
+      <img
+            src="banner-test.svg"
+            alt="Banner"
+            className="img-fluid "
+            style={{ maxHeight: '590px',  maxWidth: '900px', minWidth: '525px', maxWidth: '625px' }}
+           />
         
-      </div>
+    
 
-
+      
+     
 
     </div>
   );
