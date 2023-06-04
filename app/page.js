@@ -108,6 +108,7 @@ function Page() {
               id=""
               placeholder="Seleccionar imagen"
               onChange={(e) => setSelectedImage(e.target.files[0])}
+              required
             />
           </div>
 
