@@ -1,3 +1,8 @@
+   <img align="center" width="200" src="https://github.com/juancamilorivas/Casillero_postal/assets/67404147/dbad0cf0-07d7-44e5-ba05-2b917339c362" />
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
