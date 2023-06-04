@@ -1,4 +1,4 @@
-   <img align="center" width="200" src="https://github.com/juancamilorivas/Casillero_postal/assets/67404147/dbad0cf0-07d7-44e5-ba05-2b917339c362" />
+   <img align="center" width="1440" src="https://github.com/juancamilorivas/Casillero_postal/assets/67404147/dbad0cf0-07d7-44e5-ba05-2b917339c362" />
 
 
 
