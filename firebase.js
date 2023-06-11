@@ -12,6 +12,7 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
+console.log("hello world")
 console.log("apiKey:", firebaseConfig.apiKey);
 console.log("authDomain:", firebaseConfig.authDomain);
 console.log("projectId:", firebaseConfig.projectId);
