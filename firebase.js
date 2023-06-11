@@ -3,13 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "@firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBMpeKcxsOcqBt6gN84u0QhfjXupqWBo6g",
-  authDomain: "alamar3-93b2d.firebaseapp.com",
-  projectId: "alamar3-93b2d",
-  storageBucket: "alamar3-93b2d.appspot.com",
-  messagingSenderId: "864999022628",
-  appId: "1:864999022628:web:2ae48b67e407ff5072b8b1",
-  measurementId: "G-3NZJZYYT45"
+  apiKey: secrets.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: secrets.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: secrets.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: secrets.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: secrets.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: secrets.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  measurementId: secrets.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
 
