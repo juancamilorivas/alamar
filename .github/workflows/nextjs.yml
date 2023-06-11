@@ -29,6 +29,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Build with Next.js
+        run: |
+          ${{ steps.detect-package-manager.outputs.runner }} next build
+          ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Testing Secrets
         run: |
           echo "$NEXT_PUBLIC_FIREBASE_API_KEY"
