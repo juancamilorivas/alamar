@@ -29,6 +29,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Testing Secrets
+        run: |
+          echo "$DEVOPS"
+        env: 
+          DEVOP: ${{ secrets.NEXT_PUBLIC_FIREBASE_API_KEY }}
       - name: Checkout
         uses: actions/checkout@v3
       - name: Detect package manager
