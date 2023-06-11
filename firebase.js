@@ -12,7 +12,13 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
-
+console.log("apiKey:", firebaseConfig.apiKey);
+console.log("authDomain:", firebaseConfig.authDomain);
+console.log("projectId:", firebaseConfig.projectId);
+console.log("storageBucket:", firebaseConfig.storageBucket);
+console.log("messagingSenderId:", firebaseConfig.messagingSenderId);
+console.log("appId:", firebaseConfig.appId);
+console.log("measurementId:", firebaseConfig.measurementId);
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
