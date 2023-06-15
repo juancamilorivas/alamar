@@ -14,6 +14,7 @@ const firebaseConfig = {
 
 console.log("hello world");
 console.log("apiKey:", process.env.FIREBASE_API_KEY);
+console.log("apiKey:", process.env.FIREBASE_APP_ID);
 
 
 // Initialize Firebase
