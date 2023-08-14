@@ -31,6 +31,7 @@ function Page() {
           const storageRef = ref(storage, email);
           await uploadBytes(storageRef, selectedImage);
           console.log("Imagen cargada correctamente");
+          console.log(selectedImage)
         } catch (error) {
           console.error("Error al cargar la imagen:", error);
         }
@@ -43,7 +44,7 @@ function Page() {
       setSelectedImage(null);
       alert("Información guardada en correctamente");
     } catch (error) {
-      console.error("Error al guardar la información en Firestore:", error);
+      console.error(" :", error);
     }
   };
 
