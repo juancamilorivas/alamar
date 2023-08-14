@@ -38,11 +38,12 @@ function Page() {
       }
       
       // Restablecer los valores a una cadena vacía
+      alert("Información guardada en correctamente");
       setEmail("");
       setFirstName("");
       setSecondName("");
       setSelectedImage(null);
-      alert("Información guardada en correctamente");
+      window.location.reload();
     } catch (error) {
       console.error(" :", error);
     }
